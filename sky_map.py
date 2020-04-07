@@ -387,7 +387,7 @@ def plot_moon(ax,obs_time,obs_loc):
     if symbol<0.2 or symbol > 25.8:
         symbol = '1'
     else:
-        symbol = chr(ord('a') + int(symbol + 0.5) - 1)
+        symbol = chr(ord('A') + int(symbol + 0.5) - 1)
     #print(symbol)
 
     # plot symbol, 
